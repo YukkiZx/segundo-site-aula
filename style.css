@@ -8,11 +8,10 @@ body {
 
 .content {
     margin: 0; /* Remove margens padrão do body */
-    height: 140vh; /* Define a altura do body para 200% da altura da viewport para permitir rolagem */
-    font-size: 20px; /* Coloca o tamanho de toda a fonte em 20 pixels */
+    height: 200vh; /* Define a altura do body para 200% da altura da viewport para permitir rolagem */
+    font-size: 18px; /* Coloca o tamanho de toda a fonte em 20 pixels */
     color: white; /* Cor do texto */
     position: relative; /* Necessário para o posicionamento do conteúdo */
-    display: flex; /* Usar flexbox para centralizar o conteúdo */
     flex-direction: column; /* Alinha os itens em coluna */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
@@ -60,16 +59,4 @@ body {
 
 #redirectButton:hover {
     background-color: #45a049; /* Cor do botão ao passar o mouse */
-}
-.titulocomeco {
-
-    position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            font-size: 20px;
 }
